@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BlogApplication {
     @RequestMapping("/index")
     public String index() {
-        return "hello";
+        return "hello123";
     }
 
     public static void main(String[] args) {
